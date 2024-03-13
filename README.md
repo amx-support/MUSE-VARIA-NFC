@@ -74,12 +74,12 @@ VARIAシリーズのNFCリーダー機能を使用し、カードデータを取
 **data**は文字列で指定<br/><br/>
 
 ##### remove_last_read()
-`nfc.delete_last_read()`<br/>
+`nfc.remove_last_read()`<br/>
 
 最後に読み取ったデータをリストから削除する<br/><br/>
 
 ##### remove(type,data)
-`nfc.delete(1,"00:00:00:00:00:00:00:00")`
+`nfc.remove(1,"00:00:00:00:00:00:00:00")`
 
 該当するデータをリストから削除する<br/>
 **type**は1～4の数値<br/>
