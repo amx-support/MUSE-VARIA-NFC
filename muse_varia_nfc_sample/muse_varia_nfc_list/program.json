@@ -1,0 +1,10 @@
+{
+  "id": "muse_varia_nfc_list",
+  "name": "muse_varia_nfc_list",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "muse_varia_nfc_list.py",
+  "envvars": {}
+}
