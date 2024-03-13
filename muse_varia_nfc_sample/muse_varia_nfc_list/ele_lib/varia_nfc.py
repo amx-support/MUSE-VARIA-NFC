@@ -58,8 +58,6 @@ class VariaNFCList(VariaNFCRead):
             tag_type = e.arguments["value1"]
             tag_data = e.arguments["data"].decode()   
 
-            self.last_read["type"] = 0
-            self.last_read["data"] = ""
             self.last_read["hit"] = False
             for ls in self.data_list:
                 if ls == {"type":tag_type,"data":tag_data}:
