@@ -12,17 +12,17 @@ VARIAシリーズのNFCリーダー機能を使用し、カードデータを取
 ##### オブジェクト生成
 
 ###### 読み取りのみの場合
-`nfc = varia_nfc.VariaNFCRead(デバイス,チャンネル)`<br/><br/>
+`nfc = varia_nfc.VariaNFCRead(device,channel)`<br/><br/>
 読み取りのみを行う<br/>
-デバイスはNFC読み取りに使用するタッチパネルを指定<br/>
-チャンネルはNFCの読み取り時に指定チャンネルをパルスする<br/>
+**device**はNFC読み取りに使用するタッチパネルを指定<br/>
+**channel**はNFCの読み取り時に指定チャンネルをパルスする<br/>
 
 ###### リスト生成も行う場合
-`nfc = varia_nfc.VariaNFCList(デバイス,チャンネル,リスト)`<br/><br/>
+`nfc = varia_nfc.VariaNFCList(device,channel,list)`<br/><br/>
 読み取り機能の他にリストを生成してリスト内データと合致するか確認する<br/>
-デバイスはNFC読み取りに使用するタッチパネルを指定<br/>
-チャンネルはNFCの読み取り時に指定チャンネルをパルスする<br/>
-リストは読み取ったデータを格納するリストを指定
+**device**はNFC読み取りに使用するタッチパネルを指定<br/>
+**channel**はNFCの読み取り時に指定チャンネルをパルスする<br/>
+**list**は読み取ったデータを格納するリストを指定
 
 ##### 読み取り
 
