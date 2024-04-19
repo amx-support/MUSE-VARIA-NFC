@@ -86,14 +86,14 @@ VARIAシリーズのNFCリーダー機能を使用し、カードデータを取
 **data**は文字列で指定<br/><br/>
 
 ##### load(filename)
-`nfc.load('hoge.csv)`
+`nfc.load("hoge.csv")`
 
 ファイルからリストデータを読み込む<br/>
 **filename**はファイル名を指定<br/>
 読み込んだデータの数を戻り値として返す<br/><br/>
 
 ##### save(filename)
-`nfc.save('hoge.csv)`
+`nfc.save("hoge.csv")`
 
 リストデータをファイルに保存する<br/>
 **filename**はファイル名を指定<br/>
